@@ -1,0 +1,18 @@
+.center
+{
+    text-align:center;
+}
+.content
+{
+    width: 47%;
+    height: 47%;
+    float: left;
+    border:2px green solid;
+    margin: 1em;
+}
+body{
+    margin-left:1%;
+    margin-right:1%;
+}
+
+
