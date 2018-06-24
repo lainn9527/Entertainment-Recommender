@@ -4,11 +4,17 @@
 }
 .content
 {
-    width: 47%;
-    height: 47%;
-    float: left;
+    width: 60%;
     border:2px green solid;
-    margin: 1em;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#q1, #q2, #q3, #q4{
+    display: none;
+}
+#q1 {
+    display: block;
 }
 body{
     margin-left:1%;

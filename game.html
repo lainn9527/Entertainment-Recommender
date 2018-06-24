@@ -1,55 +1,147 @@
 <!doctype html>
 <html lang="en">
 
-    <head>
-        <title>Choosing Game</title>
-        <link rel="stylesheet" type="text/css" href="style_question.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+<head>
+    <title>Choosing Game</title>
+    <link rel="stylesheet" type="text/css" href="style_question.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-    <body>
-        <header>
-            <h1 class="center">遊戲類</h1>
-        </header> 
-        <section class="content">
-            <h2 class="center">類別一</h2>
+<body>
+    <header>
+        <h1 class="center">遊戲類</h1>
+    </header>
+    <form method="post" action="http://localhost/result.php">
+        <section class="content" id="q1">
+            <h2 class="center">Q1. 當你一覺醒來，你希望以下什麼事情發生？</h2>
             <ol type="1">
-                <li><input type="radio" name="a"></li><br>
-                <li><input type="radio" name="a"></li><br>
-                <li><input type="radio" name="a"></li><br>
-                <li><input type="radio" name="a"></li><br>
+                <li>
+                    <input type="radio" name="a1" value="A0L3P2F0H2C0">
+                    A. 有機會能搬離原本環境
+                </li>
+                <br>
+                <li>
+                    <input type="radio" name="a1" value="A1L1P0F0H2C1">
+                    B. 抽中豪華遊輪mix無人島渡假九日遊
+                </li>
+                <br>
+                <li>
+                    <input type="radio" name="a1" value="A2L0P3F2H0C0">
+                    C. 收到下落不明的父親寄來的信件
+                </li>
+                <br>
+                <li>
+                    <input type="radio" name="a1" value="A0L0P2F1H0C3">
+                    D. 什麼事情都沒發生，是個平常的一天
+                </li>
+                <br>
             </ol>
         </section>
-    
-        <section class="content">
-            <h2 class="center">類別二</h2>
+
+        <section class="content" id="q2">
+            <h2 class="center">Q2.如果說這世界有個天大的秘密，你覺得會是什麼？</h2>
             <ol type="1">
-                <li><input type="radio" name="b"></li><br>
-                <li><input type="radio" name="b"></li><br>
-                <li><input type="radio" name="b"></li><br>
-                <li><input type="radio" name="b"></li><br>
+                <li>
+                    <input type="radio" name="a2" value="A2L0P0F1H0C3">
+                    A. 千萬別惹松鼠，因為他們操控著整個世界:
+                </li>
+                <br>
+                <li>
+                    <input type="radio" name="a2" value="A0L3P1F0H2C0">
+                    B. 你一直在等待的那個人離你不遠囉
+                </li>
+                <br>
+                <li>
+                    <input type="radio" name="a2" value="A2L0P1F3H1C0">
+                    C. 你猜對了，其實一切由0和1構成的
+                </li>
+                <br>
+                <li>
+                    <input type="radio" name="a2" value="A0L2P3F0H0C1">
+                    D. 只要你敢做夢，世界就會為你鋪好道路
+                </li>
+                <br>
             </ol>
         </section>
-    
-        <section class="content">
-            <h2 class="center">類別三</h2>
+
+        <section class="content" id="q3">
+            <h2 class="center">Q3.如果世界末日來臨，你覺得會是怎樣的場景？</h2>
             <ol type="1">
-                <li><input type="radio" name="c"></li><br>
-                <li><input type="radio" name="c"></li><br>
-                <li><input type="radio" name="c"></li><br>
-                <li><input type="radio" name="c"></li><br>
+                <li>
+                    <input type="radio" name="a3" value="A2L0P1F3H0C1">
+                    A. 外星人入侵地球，所有國家同心協力發展高科技抵擋
+                </li>
+                <br>
+                <li>
+                    <input type="radio" name="a3" value="A1L1P3F0H1C0">
+                    B. 全球氣候異常，稀少的生存資源挑戰著人性
+                </li>
+                <br>
+                <li>
+                    <input type="radio" name="a3" value="A3L1P0F0H0C2">
+                    C. 第四次世界大戰，必須潛入敵對國家獲得戰情
+                </li>
+                <br>
+                <li>
+                    <input type="radio" name="a3" value="A1L1P1F1H3C1">
+                    D. 病毒爆發喪屍怪獸橫行，必須小心翼翼、隨時可能會被襲擊
+                </li>
+                <br>
             </ol>
         </section>
-    
-        <section class="content">
-            <h2 class="center">類別四</h2>
+
+        <section class="content" id="q4">
+            <h2 class="center">Q4.當你看到一棵樹快倒了你會怎麼做？</h2>
             <ol type="1">
-                <li><input type="radio" name="d"></li><br>
-                <li><input type="radio" name="d"></li><br>
-                <li><input type="radio" name="d"></li><br>
-                <li><input type="radio" name="d"></li><br>
+                <li>
+                    <input type="radio" name="a4" value="A2L0P1F0H0C1">
+                    A. 小心的避開
+                </li>
+                <br>
+                <li>
+                    <input type="radio" name="a4" value="A0L0P1F2H3C0">
+                    B. 想辦法把它弄倒
+                </li>
+                <br>
+                <li>
+                    <input type="radio" name="a4" value="A0L0P2F1H0C3">
+                    C. 觀察它為什麼會倒
+                </li>
+                <br>
+                <li>
+                    <input type="radio" name="a4" value="A1L3P0F0H0C1">
+                    D. 聯絡相關單位處理
+                </li>
+                <br>
             </ol>
+            <input type="submit" name="submit" value="Submit">
+            </li>
         </section>
-    </body>
+    </form>
+
+    <script>
+        var qNum = 1;
+        var inputs = document.getElementsByTagName("input");
+        for (let i = 0; i < inputs.length; i++) {
+            inputs[i].addEventListener("click", doClick);
+        }
+        function doClick(event) {
+            if (qNum == 4) {
+                return;
+            }
+            else nextQuestion();
+        }
+        function nextQuestion() {
+            var questionId = "q" + qNum;
+            var nextQuestionId = "q" + (++qNum);
+            var presentQ = document.getElementById(questionId);
+            var nextQ = document.getElementById(nextQuestionId);
+            presentQ.style.display = "none";
+            nextQ.style.display = "block";
+
+        }
+    </script>
+</body>
+
 </html>
