@@ -1,0 +1,22 @@
+.nav{
+    float: left;
+    width: 25%;
+    border: aqua solid 2px; 
+}
+.content{
+    margin-left: 28%;
+    border: violet solid 2px; 
+    text-align: center;
+}
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: antiquewhite;
+}
+header{
+    text-align: center;
+    font-weight: bold;
+    background-color: greenyellow;
+    padding: 10px;
+    font-size: 25px;
+}
